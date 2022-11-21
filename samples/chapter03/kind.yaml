@@ -4,31 +4,31 @@ nodes:
 - role: control-plane
   extraPortMappings:
     - containerPort: 30080
-      hostPort: 50080
+      hostPort: 59080
   image: kindest/node:arm64
 - role: control-plane
   extraPortMappings:
     - containerPort: 30080
-      hostPort: 50081
+      hostPort: 59081
   image: kindest/node:arm64
 - role: control-plane
   extraPortMappings:
     - containerPort: 30080
-      hostPort: 50082
+      hostPort: 59082
   image: kindest/node:arm64
 - role: worker
   extraPortMappings:
     - containerPort: 30080
-      hostPort: 40080
+      hostPort: 49080
   image: kindest/node:arm64
 - role: worker
   extraPortMappings:
     - containerPort: 30080
-      hostPort: 40081
+      hostPort: 49081
   image: kindest/node:arm64
 - role: worker
   extraPortMappings:
     - containerPort: 30080
-      hostPort: 40082
+      hostPort: 49082
   image: kindest/node:arm64
 
