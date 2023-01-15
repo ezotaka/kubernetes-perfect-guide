@@ -4,7 +4,7 @@ metadata:
   name: sample-clusterip-vip
 spec:
   type: ClusterIP
-  clusterIP: 10.11.253.81
+  clusterIP: 10.96.253.82
   ports:
   - name: "http-port"
     protocol: "TCP"
